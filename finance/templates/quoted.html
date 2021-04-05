@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    quoted
+{% endblock %}
+
+{% block main %}
+    <h4 style="padding: 20px">Stock Information</h4>
+    <p>A share of {{ stock_name }} ({{  symbol }}) costs {{ stock_price }}.</p>
+
+{% endblock %}
